@@ -1,0 +1,15 @@
+const GIULIO_ID = 'U2D0XE4AX'
+const JOANDI_ID = 'U3LC04543'
+const PEP_ID = 'UCG7ZMK8C'
+const ANDREA_ID = 'UDNBG0B32'
+const ANABELLA_ID = 'U832YCMB7'
+const KASIA_ID = 'U79NT248Z'
+
+module.exports = [
+  GIULIO_ID,
+  JOANDI_ID,
+  PEP_ID,
+  ANDREA_ID,
+  ANABELLA_ID,
+  KASIA_ID,
+]

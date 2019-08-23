@@ -1,0 +1,15 @@
+module.exports = [
+  'Hola',
+  'Hello',
+  'Hallo',
+  'Hej',
+  'Ciao',
+  'Coucou',
+  'Cześć',
+  'Hey there',
+  'Hi',
+  'Ola',
+  'Привіт',
+  'Bonas',
+  'Boas',
+]
