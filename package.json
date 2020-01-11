@@ -4,7 +4,9 @@
   "description": "A simple Node app built on Express, instantly up and running.",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "lint": "eslint --ignore-path .gitignore .",
+    "format": "prettier --write --ignore-path .gitignore \"**/*.+(js|json)\""
   },
   "dependencies": {
     "@slack/web-api": "latest",
@@ -24,6 +26,7 @@
     "express"
   ],
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1"
   }
 }
