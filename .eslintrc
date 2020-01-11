@@ -4,11 +4,10 @@
     "sourceType": "module",
     "ecmaFeatures": {}
   },
+  "extends": [
+    "eslint:recommended"
+  ],
   "rules": {
-    "strict": [
-      "error",
-      "never"
-    ],
     "no-unused-vars": "error",
     "no-unsafe-negation": "error",
     "no-unexpected-multiline": "error",
