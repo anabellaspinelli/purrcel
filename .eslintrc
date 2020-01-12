@@ -4,9 +4,7 @@
     "sourceType": "module",
     "ecmaFeatures": {}
   },
-  "extends": [
-    "eslint:recommended"
-  ],
+  "extends": ["eslint:recommended", "eslint-config-prettier"],
   "rules": {
     "no-unused-vars": "error",
     "no-unsafe-negation": "error",
